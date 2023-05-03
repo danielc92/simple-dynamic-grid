@@ -55,12 +55,6 @@ function App() {
         `
       }}>
             <div style={{
-              display:'grid',
-              gridArea:'.'
-            }}>
-              
-            </div>
-            <div style={{
               gridArea: "cols",
               display:'grid',
               gridTemplateColumns: new Array(cols.length + 1).fill(null).map(() => cellSize).join(""),
